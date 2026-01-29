@@ -1,0 +1,74 @@
+.Kanban2 {
+  font-family: Arial, sans-serif;
+  background: #f1f5f9;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.controls {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 8px;
+  width: 220px;
+}
+
+button {
+  padding: 8px 12px;
+  margin-left: 8px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mensaje {
+  margin-top: 10px;
+  color: #16a34a;
+}
+
+.kanban {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.column {
+  width: 260px;
+  min-height: 350px;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background 0.3s;
+}
+
+.column h2 {
+  text-align: center;
+}
+
+/* Colores por carga */
+.libre {
+  background: #dcfce7;
+}
+
+.ocupado {
+  background: #fef9c3;
+}
+
+.saturado {
+  background: #fee2e2;
+}
+
+.task {
+  background: white;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  cursor: grab;
+}
